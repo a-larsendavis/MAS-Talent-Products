@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background:#C1DAD6DA url("assets/background.jpg")no-repeat fixed center;
+    font-size:1vw;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+h1{
+    font-family: 'Pacifico', cursive; 
+    font-size: 150px;
+    color: #6D929B;
+    margin: 35px;
+    padding:100px;
+    font-size:5vw ;
+    position: absolute;
+}
+
+.loginform{
+    color: #6D929B;
+    font-family: 'Pacifico', cursive; 
+    /* margin: auto;
+    width: 15%;
+    align-items: center; */
+    /* position: absolute */
+    width: 310px;
+    margin: 10vh auto;
+    border-radius: 20px;
+    border: 2px solid #6D929B;
+    box-shadow: 3px 3px 10px black;
+}
+
+.signup-form{
+    color: #6D929B;
+    font-family: 'Pacifico', cursive; 
+    height: 22vh;
+    width: 310px;
+    margin: 10vh auto;
+    border-radius: 20px;
+    border: 2px solid #6D929B;
+    box-shadow: 3px 3px 10px black;
+}
+
+fieldset{
+    padding:15px;
+    margin:15px;
+    width:270px;
+    color:#6D929B ; 
+    border:#6D929B  solid 5px;
+    border-radius: 20px;
+}
+
+legend {
+    /* color:; */
+    font-weight:800; 
+} 
+
+
+
+input{
+    border: #F5FAFA 5px solid;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 0rem
+}
+
+
+button{
+    border:  #F5FAFA 5px solid;
+    color:#6D929B;
+    font-size: 15px;
+}
+
+/* Remove arrows from Number inputs (zipcode) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#post-cards{
+    width: 40%;
+    font-size: 10px;
+}
